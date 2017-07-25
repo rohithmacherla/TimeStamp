@@ -1,0 +1,18 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    border: white 2px solid;
+    height: 95vh;
+}
+.wrap {
+    border: 2px solid dotted;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+code {
+    background-color: #f9f2f4;
+    color: #c7254e;
+    border-radius: 4px;
+    padding: 1px;
+}
