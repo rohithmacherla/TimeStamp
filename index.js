@@ -69,6 +69,4 @@ function convertMonth(shorthand) {
     }
 }
 
-app.listen(8080, function() {
-    console.log("The Server is Currently Running.");
-});
+app.listen(process.env.PORT || 3000);
