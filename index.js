@@ -3,9 +3,9 @@ var bodyParser = require('body-parser');
 var cors = require('cors');
 var app = express();
 
-app.get('/',function(req, res) {
-    res.end("Hello World");
-});
+app.use(express.static('public'));
+
+
 
 app.get('/:id', function(req, res) {
     var id = req.params.id;
